@@ -88,7 +88,7 @@ function addShade(e) {
 
     // Get shadeCounter value to calculate shadeIndex //
     let squareFocus = e.target["id"];
-    let shadeIndex = 0.25 * shadeCounter[squareFocus];
+    let shadeIndex = 0.1 * shadeCounter[squareFocus];
     e.target.style.backgroundColor = `rgba(255, 170, 166, ${shadeIndex})`;
     e.target.style.border = "none";
     shadeCounter[squareFocus]++; // Increment shadeCounter value for squareFocus//
